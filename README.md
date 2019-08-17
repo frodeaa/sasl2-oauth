@@ -14,7 +14,12 @@ authzid and the bearer token as the password.
 ## install
 
 ```sh
-./configure --prefix=/usr
+apt get install libtool
+```
+
+```sh
+autoreconf -f -i
+./configure --prefix=/usr/lib/x86_64-linux-gnu
 make
 sudo make install
 ```
